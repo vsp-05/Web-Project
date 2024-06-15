@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=devices-width, initial-scale=1.0">
+    <title>Univresity Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+     <section class="header">
+        <nav>
+            <a href="index.html"><img src="birlacollege_logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="academics.html">ACADEMICS</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>India's Biggest Univresity</h1>
+        <p>Making website is now one of the easiest thing in the world.You
+        just need to learn HTML,CSS,<br>Javascript and you are good to go.
+        </p>
+        <a href="" class="hero-btn">Visit us to know more</a>
+    </div>    
+     </section>
+<!------Javascript for Toogle Menu--------->
+     <script>
+        
+          var navLinks = document.getElementById("navLinks");
+          function showMenu(){
+            navLinks.style.right = "0";
+          }
+          function hideMenu(){
+            navLinks.style.right = "-200px";
+          }
+
+
+     </script>
+
+     <!------course------>
+     <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Some intresting courses we offer</p>
+        <p>Like IT,CS,B.VOC,CYBER SECURITY,BMS,BBM,B.COM...etc.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermidiate</h3>
+                <P>MPC,BiPC,CEC,CEG,HEC,MEC</P>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <P>BE/B.Tech,B.Arch,BCA,B.sc,
+                    BDS,BPT,B.com,B.com(Hons.),LLB,
+                    BBA,BMS,B.VOC,BFA,BEM,BJMC,
+                    BFD,BSW,BBS,BTTM.
+                </P>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <P>MBA,M.Tech,MA,M.com,M.sc,MCA...etc</P>
+            </div>
+        </div>
+     </section>
+
+<!----------campus-------------> 
+    <section class="campus">
+        <h1>Our  Campus</h1>
+        <p>College was especially sweet because of the positive,hopeful atmosphere of college campus.</p>
+        <div class="col">
+            <div class="campus-col">
+                <img src="campus.1.jpg">
+            </div>
+        <div class="row">
+            <div class="campus-col1">
+                <img src="campus.2.jpg">
+                <img src="campus.3.jpg">
+            </div>
+            <div class="campus-col2">
+                <img src="campus.4.jpg">
+                <img src="campus.6.jpg">
+            </div>
+        </div>    
+        </div>
+    </section>
+
+<!-------Footer---------> 
+    <section class="footer">
+        <h1>About Us</h1>
+        <p>We aspire to be a premier institution of higher education, an inspiring Nodal Center,<br>
+           catering to the diverse needs of student fraternity, providing them State–of–the-Art facilities and a stimulating<br>
+           Teaching–Learning–Environment, to groom them into socially–responsible, excellent human resource.</p>
+           <div class="icons">
+              <i class="fa fa-facebook"></i>
+              <i class="fa fa-instagram"></i>
+              <i class="fa fa-linkedin"></i>
+              <i class="fa fa-whatsapp"></i>
+           </div>
+           <p>Made with <i class="fa fa-heart-o"></i> by vikrant </p>
+    </section>
+</body>    
+</html>
